@@ -1,0 +1,138 @@
+.App{
+  margin-top: 50px;
+}
+
+.container {
+    /* display: flex;  */
+    width: 80%;
+    
+    margin: auto;
+    background-color: #fff;
+    
+  }
+  .row{
+    display: flex;
+    margin-top: 0px;
+  }
+  
+  .text-side, .image-side {
+    padding: 20px;
+
+  }
+  
+  .text-side h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .text-side p {
+    font-size: 18px;
+    line-height: 1.7;
+    
+  }
+  
+  .text-side {
+    flex: 1;
+    padding-right: 10px;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 100px;
+   
+  }
+  
+  .image-side {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .image-side img {
+    
+    max-width: 100%;
+    height: 500px;
+    
+    
+  }
+  .text-left .text-right{
+    flex: 1;
+    margin-top: 0px;
+    
+  }
+  .text-left{
+    flex: 1;
+    padding-right: 10px;
+    font-size: 18px;
+    line-height: 1.7;
+    font-family: "Open Sans", sans-serif;
+  }
+  .text-right {
+    flex: 1;
+    padding-left: 10px;
+    font-size: 18px;
+    line-height: 1.7;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  .read-more-btn {
+    display: inline-block;
+    margin-top: 20px;
+    /* margin-left: 180px; */
+    padding: 10px 20px;
+    background-color:rgba(6, 159, 215, 0.6);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 14px;
+    justify-content: center;
+    
+  }
+  
+  .read-more-btn:hover {
+    background-color: #337ab7;
+  }
+  .top-image{
+    background-image: url(https://lead-academy.org/blog/wp-content/uploads/2022/10/how-do-i-become-a-physiotherapist.webp);
+    background-repeat: no-repeat; 
+    background-size: 100% ;
+  
+  }
+  .left-list,
+  .right-list {
+    
+    list-style:square;
+    padding: 20px;
+    margin-left: 100px;
+  }
+  .left-list li,
+  .right-list li {
+    margin-bottom: 10px;
+    line-height: 1.8;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+
+  }
+  .left-list{
+    flex: 1;
+    padding-right: 10px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .right-list{
+    flex: 1;
+    padding-right: 10px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .text-center{
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .list p{
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 2;
+    color: #333;
+    /* font-style: italic; */
+   
+  }
+  .list h3{
+    font-size: larger;
+    margin-top: 18px;
+  }
